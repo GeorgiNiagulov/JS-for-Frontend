@@ -1,4 +1,4 @@
-function setValues(arr){
+function setValues(arr) {
   let length = Number(arr.shift());
   let newArr = [];
 
@@ -10,11 +10,11 @@ function setValues(arr){
     newArr[index] = value;
   }
 
- for (let k = 0; k < length; k++) {
-  if (!newArr[k]) {
-    newArr[k] = 0;
+  for (let k = 0; k < length; k++) {
+    if (!newArr[k]) {
+      newArr[k] = 0;
+    }
   }
- }
 
   newArr.map(element => {
     console.log(element);
@@ -22,4 +22,4 @@ function setValues(arr){
 
 }
 
-setValues( [3, '0 - 5', '1 - 6', '2 - 7']);
+setValues([5, '0 - 3', '3 - -1', '4 - 2']);
