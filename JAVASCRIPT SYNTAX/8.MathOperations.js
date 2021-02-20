@@ -1,5 +1,5 @@
-function mathOperations(firstNum, secondNum, operation){
-  switch (operation) {
+function mathOperations(firstNum, secondNum, operand){
+  switch (operand) {
     case '+':
       console.log(Number(firstNum+secondNum));
       break;
